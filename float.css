@@ -1,0 +1,97 @@
+/*Generals*/
+
+body {
+  padding: 80px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  width: 80vw;
+  padding: 2em 10em;
+  background-color: #333;
+  color: white;
+}
+
+hr {
+  margin: 50px;
+  border-color: white;
+  clear: both;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  vertical-align: baseline;
+  border: 1px solid #666;
+  background: #999;
+}
+
+.show-bg{
+  background: lightslateblue;
+  padding: 20px;
+  box-shadow: 0px 0px 0px 20px mediumslateblue inset;
+  font-size: 0;
+  border: 4px solid darkslateblue;
+}
+
+.box-100-px{
+  width: 100px;
+  height: 100px;
+  background: SeaGreen;
+  border: 1px solid DarkSeaGreen;
+}
+
+.box-100-percent{
+  background: Chocolate;
+  border: 1px solid SaddleBrown;
+  color: black;
+  height: 100px;
+  width: 100%;
+}
+
+.highlight-text{
+  font-size: 16px;
+  font-weight: bold;
+  background: Khaki;
+}
+
+
+
+
+
+ /*Floats */
+
+.float-left{
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.float-right{
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+
+
+ /*Clear */
+
+.clear{
+  clear: both;
+}
+
+
+
+ /*Nicks Clearfix Hack
+   http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
