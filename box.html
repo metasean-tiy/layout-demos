@@ -3,11 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>box-sizing</title>
-    <style media="screen">
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      html {
+        border: darkslateblue double 15px;
+        height: 100%;
+      }
       body {
         background: darkmagenta;
         border: red dashed 10px;
         color: white;
+        height: 100%;
+      }
+      header {
+        background: palegreen;
+        border: green dotted 5px;
+        color: green;
+        min-height: 100%;
+        font-size: 1rem;
       }
     </style>
   </head>
